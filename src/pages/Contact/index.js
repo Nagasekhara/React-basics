@@ -2,12 +2,12 @@ import React, { useState } from "react";
 
 const Contact = () => {
 	const list = [
-		"Banana",
-		"Apple",
-		"Orange",
-		"Mango",
-		"Pineapple",
-		"Watermelon"
+		"sekhar",
+		"naga",
+		"nagasekhar",
+		"tester",
+		"seneca",
+		"global"
 	  ];
 	
 	  const [filterList, setFilterList] = useState(list);
