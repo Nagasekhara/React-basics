@@ -7,9 +7,11 @@ return (
 	<>
 	<Nav>
 		<NavMenu>
-			
-		<NavLink to="/about" activeStyle>
-			About
+		<NavLink to="/recoil" activeStyle>
+			Recoil state
+		</NavLink>
+		<NavLink to="/redux" activeStyle>
+			Redux state
 		</NavLink>
 		<NavLink to="/dashboard" activeStyle>
 			Dashboard

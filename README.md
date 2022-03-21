@@ -4,6 +4,8 @@
 3. Route and Navbar,
 4. Contact search list
 5. react-simple-image-slider
+6. react-redux
+7. recoil state management
 ## Project setup
 
 In the project directory, you can run:

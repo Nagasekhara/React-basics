@@ -8,11 +8,13 @@ import {
 	Redirect,
   } from "react-router-dom";
 import Home from './pages/Home';
-import About from './pages/About';
 import SignUp from './pages/Signup';
 import Contact from './pages/Contact';
 import Login from './pages/Login';
 import Dashboard from './pages/Dashboard';
+import Redux from './pages/Redux';
+import Recoil from './pages/Recoil';
+
 
 function App() {
 return (
@@ -25,16 +27,18 @@ return (
           with exact path "/", in component props 
           we passes the imported component*/}
           <Route exact path="/" component={Home} />
-          <Route path="/about" component={About} />
+          <Route path="/recoil" component={Recoil} />
+          <Route path="/redux" component={Redux} />
           <Route path="/contact" component={Contact} />
-		  <Route path="/login" component={Login} />
-		  <Route path="/signup" component={SignUp} />
+		      <Route path="/login" component={Login} />
+		      <Route path="/signup" component={SignUp} />
           <Route path="/dashboard" component={Dashboard} />
           {/* If any route mismatches the upper 
           route endpoints then, redirect triggers 
           and redirects app to home component with to="/" */}
           <Redirect to="/" />
         </Switch>
+        <footer>footer added here</footer>
       </Router>
     </>
 );
