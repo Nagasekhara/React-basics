@@ -4,8 +4,10 @@
 3. Route and Navbar,
 4. Contact search list
 5. react-simple-image-slider
-6. react-redux
+6. react-redux state
 7. recoil state management
+8. mobx state management
+9. react hooks basics
 ## Project setup
 
 In the project directory, you can run:

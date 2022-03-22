@@ -7,11 +7,19 @@ return (
 	<>
 	<Nav>
 		<NavMenu>
+
+		<NavLink to="/mobx" activeStyle>
+			Mobx-react state
+		</NavLink>
+
 		<NavLink to="/recoil" activeStyle>
 			Recoil state
 		</NavLink>
 		<NavLink to="/redux" activeStyle>
 			Redux state
+		</NavLink>
+		<NavLink to="/hooks" activeStyle>
+			Hooks state
 		</NavLink>
 		<NavLink to="/dashboard" activeStyle>
 			Dashboard
