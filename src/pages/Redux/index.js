@@ -1,11 +1,7 @@
 import React, { Component, useState } from "react";
-// import { useSelector, useDispatch } from "react-redux";
-// import { actions } from "./counter";
 import { connect } from "react-redux";
 
 class Redux extends Component {
-    // const count = useSelector((state) => state.counter.value);
-    // const dispatch = useDispatch();
 	render()
 	{
 		return (

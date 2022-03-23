@@ -21,6 +21,9 @@ return (
 		<NavLink to="/hooks" activeStyle>
 			Hooks state
 		</NavLink>
+		<NavLink to="/hoc" activeStyle>
+			HOC 
+		</NavLink>
 		<NavLink to="/dashboard" activeStyle>
 			Dashboard
 		</NavLink>

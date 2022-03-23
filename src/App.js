@@ -48,6 +48,7 @@ import Redux from './pages/Redux';
 import Mobx from './pages/Mobx';
 import Recoil from './pages/Recoil';
 import Hooks from './pages/Hooks';
+import HOC from './pages/HOC';
 
 function App() {
 return (
@@ -64,6 +65,7 @@ return (
           <Route path="/recoil" component={Recoil} />
           <Route path="/redux" component={Redux} />
           <Route path="/hooks" component={Hooks} />
+          <Route path="/hoc" component={HOC} />
           <Route path="/contact" component={Contact} />
 		      <Route path="/login" component={Login} />
 		      <Route path="/signup" component={SignUp} />
